@@ -1,0 +1,12 @@
+p::first-letter {
+    font-size: 28px;
+    font-weight: bold
+}
+
+.jcnm::after {
+    content: " //JCNM"
+}
+
+p::selection {
+    background: yellow
+}

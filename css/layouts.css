@@ -1,0 +1,43 @@
+div {
+    background: #9a9a9a1a;
+    margin-top: 5px;
+}
+
+div div {
+    margin: 0;
+}
+
+.col-sm, .col {
+    border: 1px solid;
+}
+
+.container-fluid {
+    background: orange
+}
+
+.test {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.test2 {
+    background: grey;
+    color: white;
+    font-size: 1em;
+    width: auto;
+    padding: 15px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.large { flex-grow: 3 }
+.medium { flex-grow: 2 }
+.small { flex-grow: 1 }
+
+.parent {
+    height: 200px;
+}
+
+.child {
+    height: 100px;
+}
